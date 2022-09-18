@@ -1,0 +1,71 @@
+main {
+    margin: 15px 25px;
+}
+.screen__icons {
+    width: 230px;
+    justify-content: space-between;
+}
+.user-component {
+    display: flex;
+    justify-content: space-between;
+}
+.user-component-column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-component-column:first-child img {
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.user-component-username {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#channel:first-child img {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+#channel .user-component-username {
+    font-size: 25px;
+    font-weight: 300;
+}
+.user-component-column:last-child {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #a9a9a9;
+}
+.friends-screen__channel-header {
+    margin: 20px 0 30px 0;
+    border-top: 1px solid #d0cdcd;
+    padding-top: 20px;
+    color: #a9a9a9;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-component-textbox {
+    display: flex;
+    flex-direction: column;
+}
+.user-component-info {
+    font-size: 17px;
+    font-weight: 400;
+    color: #a9a9a9;
+}
+.user-component-chatnb {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

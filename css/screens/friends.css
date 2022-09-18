@@ -1,0 +1,37 @@
+.friends-display-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 45px;
+    font-size: 20px;
+}
+.friends-names-display {
+    margin-left: 5px;
+}
+.friends-display-screen-icon {
+    color: #d5d5d5;
+}
+
+@keyframes hide {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.splash-screen {
+    background-color: #fde401;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    animation: hide 0.4s ease-in-out forwards;
+    animation-delay: 1.5s;
+}

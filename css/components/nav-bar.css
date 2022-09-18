@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+}
+.nav {
+    background-color: #f9f9fa;
+    padding: 20px 0;
+    border-top: 1px solid rgba(164, 164, 171, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: appearance 1.5s ease-in-out;
+}
+@keyframes appearance {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.nav__ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav__a {
+    position: relative;
+    color: #2e363e;
+}
+.nav_noti {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    display: block;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: none;
+    text-decoration-line: none;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    animation: notification 3s ease-in-out infinite;
+}
+
+@keyframes notification {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: none;
+    }
+}
+.nav__dot {
+    background-color: tomato;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+}

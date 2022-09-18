@@ -1,0 +1,29 @@
+.screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0 25px;
+    height: 63px;
+}
+.screen__title {
+    font-size: 35px;
+    font-weight: 600;
+}
+.screen__icons {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@keyframes rotate {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen__icons .fa-gear {
+    animation: rotate 3s ease-in-out infinite;
+}
