@@ -1,3 +1,6 @@
+.settings-list {
+    height: 610px;
+}
 .settings__setting {
     padding: 20px 0;
     border-bottom: 1px solid rgb(0, 0, 0, 0.1);
@@ -12,4 +15,44 @@
 .settings__setting i {
     margin-right: 20px;
     font-size: 22px;
+}
+.settings__setting:nth-child(3) {
+    height: 50px;
+    align-items: flex-start;
+}
+.display {
+    position: relative;
+}
+.themes {
+    position: relative;
+}
+.settings__setting-chatnb-display {
+    background-color: tomato;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 115px;
+}
+.settings__setting-chatnb-themes {
+    background-color: tomato;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2px;
+    left: 115px;
 }
